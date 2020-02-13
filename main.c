@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <string.h>
 
@@ -73,7 +74,7 @@ char *uncrypt_withcesar(char chaine[], int *decalage, char *direction) {
 
 void afficherchaine(char chaine[]) {
 
-    printf(chaine);
+    printf("%s\n",chaine);
 
 }
 
